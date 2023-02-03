@@ -279,7 +279,7 @@
 }
 .step__item_first:before {
   position: absolute;
-  top: 20%;
+  top: 50px;
   z-index: -1;
   opacity: 0.5;
   filter: blur(125px);
@@ -299,7 +299,7 @@
 }
 .step__item_second:before {
   position: absolute;
-  top: 20%;
+  top: 50px;
   z-index: -1;
   opacity: 0.5;
   filter: blur(125px);
@@ -319,7 +319,7 @@
 }
 .step__item_third:before {
   position: absolute;
-  top: 20%;
+  top: 0;
   z-index: -1;
   opacity: 0.5;
   filter: blur(125px);
@@ -339,7 +339,8 @@
 }
 .step__item_fourth:before {
   position: absolute;
-  top: 20%;
+  top: 100px;
+  left: 40px;
   z-index: -1;
   opacity: 0.5;
   filter: blur(125px);
@@ -359,7 +360,8 @@
 }
 .step__item_fifth:before {
   position: absolute;
-  top: 20%;
+  top: 30px;
+  left: 70px;
   z-index: -1;
   opacity: 0.5;
   filter: blur(125px);
@@ -379,7 +381,8 @@
 }
 .step__item_sixth:before {
   position: absolute;
-  top: 20%;
+  top: 30px;
+  left: 10px;
   z-index: -1;
   opacity: 0.5;
   filter: blur(125px);

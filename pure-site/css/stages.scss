@@ -37,7 +37,7 @@
     width: fit-content;
     &:before{
       position: absolute;
-      top: 20%;
+      top: 50px;
       z-index: -1;
       opacity: 0.5;
       filter: blur(125px);
@@ -59,7 +59,7 @@
     left: -41px;
     &:before{
       position: absolute;
-      top: 20%;
+      top: 50px;
       z-index: -1;
       opacity: 0.5;
       filter: blur(125px);
@@ -80,7 +80,7 @@
     left: 795px;
     &:before{
       position: absolute;
-      top: 20%;
+      top: 0;
       z-index: -1;
       opacity: 0.5;
       filter: blur(125px);
@@ -100,7 +100,8 @@
     left: -35px;
     &:before{
       position: absolute;
-      top: 20%;
+      top: 100px;
+      left: 40px;
       z-index: -1;
       opacity: 0.5;
       filter: blur(125px);
@@ -120,7 +121,8 @@
     left: 700px;
     &:before{
       position: absolute;
-      top: 20%;
+      top: 30px;
+      left: 70px;
       z-index: -1;
       opacity: 0.5;
       filter: blur(125px);
@@ -140,7 +142,8 @@
     left: -30px;
     &:before{
       position: absolute;
-      top: 20%;
+      top: 30px;
+      left: 10px;
       z-index: -1;
       opacity: 0.5;
       filter: blur(125px);
