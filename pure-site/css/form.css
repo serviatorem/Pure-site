@@ -1,0 +1,111 @@
+.form {
+  margin: 0 0 125px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form .form__title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 54px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin: 0 0 62px 0;
+}
+.form .form__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 102px;
+}
+.form .form__content .content__info {
+  display: grid;
+  gap: 40px;
+}
+.form .form__content .input {
+  display: block;
+  background: #0A1328;
+  background-clip: padding-box;
+  border: solid 3px #253354;
+  border-radius: 15px 3px;
+  position: relative;
+  padding: 15px 10px;
+  width: 486px;
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+}
+.form .form__content .input:focus {
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  background: linear-gradient(#0A1328, #0A1328) padding-box, linear-gradient(165deg, rgb(30, 39, 232) 0%, rgb(44, 210, 255) 100%) border-box;
+  border: solid 3px transparent;
+  box-shadow: 0 3px 8px rgba(37, 126, 244, 0.3);
+}
+.form .form__content .number, .form .form__content .email, .form .form__content .name {
+  grid-column-start: 1;
+}
+.form .form__content .text__input {
+  grid-column-start: 2;
+  grid-row: 1/3;
+  height: 290px;
+  display: flex;
+  align-items: start;
+  resize: none;
+}
+.form .form__content .content__file {
+  position: relative;
+  z-index: 3;
+  font-weight: 500;
+  font-size: 14px;
+  color: #858585;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  bottom: 103px;
+  left: 738px;
+  cursor: pointer;
+}
+.form .form__content .content__file:after {
+  content: url("../image/download.svg");
+}
+.form .form__content .content__file .file__input {
+  display: none;
+}
+.form .form__button {
+  display: flex;
+  justify-content: space-between;
+}
+.form .form__button .form__send {
+  font-weight: 700;
+  font-size: 22px;
+  color: #FFF;
+  background: linear-gradient(92.56deg, #9B17FF 1.62%, #FF0068 100%);
+  border-radius: 20px 0;
+  border: none;
+  padding: 18px 83px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 272px;
+  padding: 18px 50px;
+  max-width: 218px;
+  background: linear-gradient(92.56deg, #1E27E8 1.62%, #2CD2FF 100%);
+}
+.form .form__button .form__back {
+  font-weight: 700;
+  font-size: 22px;
+  color: #FFF;
+  background: linear-gradient(92.56deg, #9B17FF 1.62%, #FF0068 100%);
+  border-radius: 20px 0;
+  border: none;
+  padding: 18px 83px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 272px;
+  padding: 18px 50px;
+  max-width: 218px;
+  background: linear-gradient(#00091F, #00091F) padding-box, linear-gradient(92.56deg, #1E27E8 1.62%, #2CD2FF 100%) border-box;
+  border: solid 3px transparent;
+}
+
+/*# sourceMappingURL=form.css.map */

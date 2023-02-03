@@ -1,0 +1,47 @@
+.opening {
+  margin: 0 0 125px 0;
+}
+.opening .opening__content {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.opening .opening__content .opening__title, .opening .opening__content .opening__text, .opening .opening__content .opening__button-brief {
+  color: white;
+}
+.opening .opening__content .opening__description {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.opening .opening__content .opening__description .opening__title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  max-width: 520px;
+  width: 100%;
+}
+.opening .opening__content .opening__description .opening__text {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 160%;
+  max-width: 632px;
+  width: 100%;
+  margin: 20px 0 30px 0;
+}
+.opening .opening__content .opening__button-brief {
+  font-weight: 700;
+  font-size: 22px;
+  color: #FFF;
+  background: linear-gradient(92.56deg, #9B17FF 1.62%, #FF0068 100%);
+  border-radius: 20px 0;
+  border: none;
+  padding: 18px 83px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 272px;
+  padding: 17px 47px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=opening.css.map */

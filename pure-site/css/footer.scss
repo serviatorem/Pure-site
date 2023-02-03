@@ -1,0 +1,58 @@
+@import "variable";
+$font-size: 22px;
+$font-weight: 600;
+.footer{
+  &:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(0,116,245,1) 0%, rgba(11,109,245,1) 12%, rgba(42,90,247,1) 25%, rgba(92,60,250,1) 50%, rgba(155,23,255,1) 65%, rgba(255,0,104,1) 100%);
+  }
+  .footer__wrapper{
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    .footer__content{
+      .footer__nav{
+        .nav__list{
+          display: flex;
+          gap: 50px;
+          align-items: center;
+          height: 100%;
+          .nav__item{
+            list-style: none;
+            .nav__link{
+              text-decoration: none;
+              color: white;
+              font-size: $font-size;
+              font-weight: $font-weight;
+            }
+          }
+        }
+      }
+      .footer__info{
+        display: flex;
+        gap: 34px;
+        margin: 40px 0 0 0;
+        .info__description{
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #828BA1;
+          cursor: pointer;
+        }
+      }
+    }
+    .footer__social{
+      .social__items{
+        display: flex;
+        gap: 28px;
+        .social__item{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}

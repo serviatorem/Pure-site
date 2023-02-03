@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+@import "header";
+@import "opening";
+@import "services";
+@import "benefits";
+@import "stages";
+@import "swiper";
+@import "project";
+@import "form";
+@import "footer";
+@import "form__phone";
+*{
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body{
+  background: #00091F;
+}
+a{
+  display: block;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main{
+  margin: 125px 0 0 0;
+}

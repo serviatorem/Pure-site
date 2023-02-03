@@ -1,0 +1,76 @@
+.services {
+  margin: 0 0 125px 0;
+}
+.services .services__content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.services .services__content .services__title {
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+}
+.services .services__content .services__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.services .services__content .services__cards .services__card {
+  width: 100%;
+  max-width: 384px;
+  height: 368px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.services .services__content .services__cards .services__card .card__description {
+  font-weight: 700;
+  font-size: 34px;
+  color: white;
+}
+.services .services__content .services__cards .services__card .card__img {
+  position: relative;
+}
+.services .services__content .services__cards .services__card-design {
+  background: #0074F5;
+  border-radius: 192px 0 0 0;
+}
+.services .services__content .services__cards .services__card-design .card__img {
+  right: 44px;
+}
+.services .services__content .services__cards .services__card-seo {
+  background: #9B17FF;
+  border-radius: 0 0 0 192px;
+}
+.services .services__content .services__cards .services__card-seo .content__img {
+  top: 0;
+  right: 0;
+}
+.services .services__content .services__cards .services__card-backend {
+  border-radius: 0 192px 0 0;
+  background: #DD1C66;
+}
+.services .services__content .services__cards .services__card-backend .content__img {
+  left: 25px;
+}
+.services .services__content .services__cards .services__card-support {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #FDD000;
+  border-radius: 191.5px 0 0 0;
+  max-width: none;
+}
+.services .services__content .services__cards .services__card-frontend {
+  background: #F47115;
+  border-radius: 0 0 192px 0;
+}
+.services .services__content .services__cards .services__card-frontend .card__description, .services .services__content .services__cards .services__card-seo .card__description {
+  margin: 30px 0 0 0;
+}
+.services .services__content .services__cards .services__card-support .card__description, .services .services__content .services__cards .services__card-backend .card__description, .services .services__content .services__cards .services__card-design .card__description {
+  margin: 0 0 50px 0;
+}
+
+/*# sourceMappingURL=services.css.map */

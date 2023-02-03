@@ -1,0 +1,62 @@
+.benefits {
+  margin: 0 0 125px 0;
+  .benefits__content{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    .benefits__title {
+      font-weight: 700;
+      font-size: 46px;
+      color: white;
+    }
+
+    .benefits__cards {
+      display: flex;
+      gap: 24px;
+
+      .benefits__card {
+        max-width: 282px;
+        width: 100%;
+        height: 314px;
+        background: linear-gradient(180deg, #FFE380 0%, #FF7070 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .card__description {
+          font-weight: 700;
+          font-size: 32px;
+          color: white;
+          margin: 0 0 58px 0;
+        }
+
+        .card__img {
+          position: relative;
+          transform: rotate(40.33deg);
+          bottom: 35px;
+        }
+      }
+
+      .quality {
+        background: url("../image/quality.svg") no-repeat;
+        background-size: contain;
+      }
+
+      .price {
+        background: url("../image/price.svg") no-repeat;
+        background-size: contain;
+      }
+
+      .responsiveness {
+        background: url("../image/responsiveness.svg") no-repeat;
+        background-size: contain;
+      }
+
+      .responsibility {
+        background: url("../image/responsibility.svg") no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}
